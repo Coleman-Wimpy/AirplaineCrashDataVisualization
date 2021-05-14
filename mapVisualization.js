@@ -89,7 +89,7 @@ async function getData() {
 
 try {
 	//Commented out to prevent using up all the allowed api calls
-  getData();
+    getData();
 }
 catch (e) {
     console.log(e.message);
